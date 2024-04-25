@@ -161,3 +161,4 @@ cython_debug/
 
 # xml
 TestXML.xml
+testOutput.xml

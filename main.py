@@ -1,8 +1,8 @@
 from lxml import etree
 
-def loadRSS(): 
-    # url of rss feed 
-    main() 
+def loadFile(): 
+    #loadfile
+    doc = etree.parse ( 'test.xml' )
  
 def main(): 
     # load rss from web to update existing xml file 

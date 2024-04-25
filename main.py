@@ -17,14 +17,14 @@ def main():
         if key.text == 'URL':
             value = e.find('Value')
             if value.text is None:
-                print('URLFound Empty: Update text to "cseo.genmills.com"')
+                print('URLFound Empty: Update text to "CSEO.Import.genmills.com"')
                 value.text = 'CSEO.Import.genmills.com'
             else:
                 value.text = value.text
         if key.text == 'UserName':
             value = e.find('Value')
             if value.text is None:
-                print('UserName Found Empty: Update text to "cseo"')
+                print('UserName Found Empty: Update text to "CSEO-import"')
                 value.text = 'CSEO-import'
             else:
                 value.text = value.text
